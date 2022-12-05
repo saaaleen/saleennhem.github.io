@@ -1,0 +1,81 @@
+.nav_bar {
+    border-bottom: 1px solid black;
+}
+
+.nav_bar a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#title_name {
+    font-size: 3.5rem;
+}
+
+.homepage_project_image {
+    max-width: 700px;
+}
+.project_card_name  {
+    text-align: center;
+}
+
+.project_card_about {
+    text-align: center;
+}
+
+.project_page_description {
+    margin-top: 1%;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #00000;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(245, 40, 145, .8.);
+  border: 0px solid rgba(245, 244, 145, .8.);
+  padding: 10px;
+  font-size: 0px;
+  text-align: center;
+
+}
+
+.nav_item {
+  color:RGB(173, 201, 171 );
+}
+
+.nav_tool {
+  color:RGB(199, 171, 201 );
+  font-family: "CutiveMono";
+}
+
+.blue {
+  color:RGB(171, 188, 201 );
+}
+
+#nav_item_title {
+  color:RGB(173, 201, 171 );
+  font-family: "Cutive Mono";
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-text {
+  font-family: "CutiveMono";
+  font-size: 100px;
+  color:RGB(173,201,171);
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+}
